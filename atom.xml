@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-01-27T11:17:10.958Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>back</title>
+    <link href="http://example.com/2021/01/27/back/"/>
+    <id>http://example.com/2021/01/27/back/</id>
+    <published>2021-01-27T11:17:10.000Z</published>
+    <updated>2021-01-27T11:17:10.958Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2020/11/15/hello-world/"/>
+    <id>http://example.com/2020/11/15/hello-world/</id>
+    <published>2020-11-15T05:12:47.430Z</published>
+    <updated>2020-05-13T06:11:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/11/15/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%BD%BB%E9%9F%B3%E5%B0%91%E5%A5%B3/"/>
+    <id>http://example.com/2020/11/15/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%BD%BB%E9%9F%B3%E5%B0%91%E5%A5%B3/</id>
+    <published>2020-11-15T05:12:47.320Z</published>
+    <updated>2020-06-29T11:52:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Forever-K-ON"><a href="#Forever-K-ON" class="headerlink" title="Forever K-ON"></a>Forever K-ON</h1><p>这部番是神话，很久没有这么有感触了，也看了很多番了，没有一部像轻音一样，将梦想、青春、友情、日常融汇的如此完美，感觉此番只应天上有。原谅我一个大男人在看完整个系列后，在电脑前哭得稀里哗啦，这部番没有任何虐点，换句话说可能它的完结是唯一且最大的虐点，每次听到天使<strong>にふれたよ!**以及</strong>ふわふわ時間**我都会热泪盈眶，真的很感动，因为音乐梦想相遇的女孩们，在一起每天喝喝茶，练练曲子，在全校面前献上最棒的Live，这可能就是我曾经追求的东西吧，很多人不知道，我曾经也有个音乐的梦，我也想组个乐队，也想有一群这样的朋友，也想在全校面前闪耀一次，可是这也只能是曾经的梦想了，我的高中过的一塌糊涂，于是向往轻音中的那种生活，在我大学前，彻底放弃了吉他，脑中想着还是有时间多休息休息或者学学C语言吧，可能对以后的就业有帮助，所以这部番也算对我曾经的青春的祭奠吧。</p><p>这部番描写的是轻音部平凡的生活，可就是这么平凡的生活，给人巨大的代入感，仿佛我也在每天放学后的音乐教室，仿佛我也在轻音部氤氲的茶香中，仿佛我也在追寻着我的音乐梦想，平凡而伟大这一词，可能完美地概括了这部番吧，很难想象，平凡的学校日常番能让我难忘，可能这就是轻音的魅力吧。假期前看了讲QUEEN的《波西米亚狂想曲》，再看轻音，更加向往一支乐队，组建乐队真的很棒，志同道合的大家一起演奏，搞不好还会成为传奇，像五月天和beyond，每个人心中可能都有一个音乐的梦吧，至少我是的。</p><p>写到这里，感觉写的很乱，想说的有点说不清，不想说的罗嗦了一大堆，怎么说呢，一想到轻音我内心就难以平静，这是我的青结系列里分量最重的一部番了。再说说这部番的制作吧，作者真的很用心，轻音部中每个人的名字都在致敬当时日本很棒的几个乐队，还有HTT是真的存在的，很难有人想到真的找一支乐队来为整部番配音，而且效果还那棒，这可能就是日本的动画制作水平吧，国人可能近十几年内也难以超越吧，至少，超越轻音是绝对不可能的，中国式的青春可能也无法为好的校园番提供素材罢了。</p><p>看了轻音少女，我觉得曾经找不到那个转折点来了，我有生之年一定要去一次京都，去轻音部，如果能和我的她一起的话，我会告诉她，没有这里，没有那部神话，就没有现在的我。从现在起我也要追寻我自己的梦想了，可能不是去武道馆开Live的音乐梦，但是至少我要赚到足够的钱，如果有机会的话，要入股京都动画，见证新的奇迹。</p><p>我永远不会忘记这个夏天，我遇见了轻音，见证了轻音部的传奇，见证了青春、友情与梦想的赞歌，绝对，不会，忘记！</p><p><strong>Forever K-ON</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Forever-K-ON&quot;&gt;&lt;a href=&quot;#Forever-K-ON&quot; class=&quot;headerlink&quot; title=&quot;Forever K-ON&quot;&gt;&lt;/a&gt;Forever K-ON&lt;/h1&gt;&lt;p&gt;这部番是神话，很久没有这么有感触了，也看了很多番了，没有一部</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/11/15/%E9%82%A3%E4%BA%9B%E6%A2%A6%E4%B8%80%E8%88%AC%E7%9A%84%E7%95%AA%E5%89%A7/"/>
+    <id>http://example.com/2020/11/15/%E9%82%A3%E4%BA%9B%E6%A2%A6%E4%B8%80%E8%88%AC%E7%9A%84%E7%95%AA%E5%89%A7/</id>
+    <published>2020-11-15T05:12:47.210Z</published>
+    <updated>2020-06-29T09:00:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="那些梦一般的番剧"><a href="#那些梦一般的番剧" class="headerlink" title="那些梦一般的番剧"></a>那些梦一般的番剧</h1><p>说实话进入二次元也有一段时间了，总感觉有些东西憋在心里，说实话我觉得二次元对于我来说，算是我寄托我的“纯净”的地方吧，它是我对于“真正的东西”的向往。现实的生活总是些许压抑，人的情感也捉摸不定，尔虞我诈的人际关系真的需要喘息的空间。而二次元中描绘的美好恰恰是我所追寻的，而现实中却得不到的。</p><h2 id="紫罗兰永恒花园"><a href="#紫罗兰永恒花园" class="headerlink" title="紫罗兰永恒花园"></a>紫罗兰永恒花园</h2><p>大概是从和兄弟一起去看了紫罗兰永恒花园之后才开始疯狂地补番追剧，这部番教了我什么呢？ 心意。 京都动画的这部番剧确实是2018的奇迹，薇尔莉特在战争中传递心意的载体–书信。这部番的最大意义就是教会了我心意的重要性，人与人之间，最难的就是传递心意，我想说我爱你，可是碍于各种原因，这句话也许你听到了也不相信，也许你根本就没有机会听见。人与人之间要是能听到心意，那么偏见与隔阂也会少一些吧。不管怎么样，这部番真的令人印象深刻，完结的时候也确实让我难过了好久，心情才得以平复。听说剧场版要把少佐找回来，不过小说确实仅仅到动画版结尾就戛然而止，其实这样也好，薇尔莉特的美，战争后的重生已经足够了吧，但是既然动画想要给薇尔莉特和少佐的感情一个结果，那么我觉得也很棒，我始终相信京都出品，必属精品。</p><p>总的来说，人性，温暖，心意，重生，这算是这部番教给我的吧。<del>还有薇尔莉特的美</del></p><p>**“愿你不再是工具，而是人如其名的人” **</p><p><strong>To Violet Evergarden</strong></p><h2 id="灌篮高手"><a href="#灌篮高手" class="headerlink" title="灌篮高手"></a>灌篮高手</h2><p>这是高中看的，高二那个暑假，把门一关拿出手机看完了，算是青结系列的一部吧，关于篮球的梦想也是我高中时期的重要组成。当初想着留着漫画版的全国大赛当作高考后的奖励来看吧，但是高三那一年发生了太多变故，一直到现在，也没找时间把他结束掉，虽然已经知道了结局，但是还是有点想要仪式性的结束吧，等以后有兴趣看漫画再说吧。</p><p>漫画中最深刻的当然是那句 <strong>“教练，我想打篮球。”</strong> 当时真的是看哭了，感觉自己当时其实学习状态就有点奇怪，但是也没找到能让我扭转的点。还有就是樱木花道这个角色，真的让人很感动，他是个深刻的人，混混也不都是坏人，只是释放自己的方式不对吧，他对梦想的追求，那种纯粹的勇气，哪怕一无所有，什么都不太会也想要拿到冠军的勇气，我真希望自己有他的勇气，还有与流川枫的关系也让人有些羡慕，说到流川枫，他真的是个很酷的人，也是个好人，我现在的ID也是出于对这个人的喜欢，樱木喜欢叫流川枫狐狸，而且流川枫的号码是十一号，所以狐狸十一也就这么产生了，而且我觉得狐狸这种动物也很厉害，狡猾而可爱。晴子是个好女孩，可惜不现实。差点忘了说福田吉兆，其实我已经忘了他的名字了，但是我忘不了他，因为这就是现实中的我，这个少年有着最敏感的内心，他是一个需要鲜花与掌声的人，我也是，我想要的是大家的认可啊，初中时上台基本并不会紧张，可是现在连网上发言我都说话很抖，原因很大程度上来自于勇气的缺乏，初中时大家认可我，而高中时的班上持续三年恶性竞争直接摧毁了我勇气的来源，很少有人真心的夸我，可能这就是高中后遗症吧，正因如此才更向往动漫里的高中生活吧。</p><p>最后说说结局吧，大多数人疑惑的是这部热血番为什么不是大团圆结局，让主角队伍拿个全国第一不好么，说实话一开始我也有这疑问，但是作者的回答震撼了我，他说青春就是不完美的啊。我看到这句报道，十分震惊，确实如此，大家的青春都是这样啊，每个男孩心中都有一个晴子，每个男孩心中都有一个“全国大赛”的理想，每个男孩也都会面临高三升学放弃爱好的困境。所以从这种意义上来看，这部剧热血且真实，真实的可怕，深刻的让人难以忘怀。</p><p>这部动漫让我明白了梦想，青春，现实。愿我们长大成人后也能保持着年少的激情与梦想吧。</p><p><strong>我想打篮球，因为我是个篮球手。——樱木花道</strong></p><p><strong>Forever Shohoku!</strong></p><h2 id="春物"><a href="#春物" class="headerlink" title="春物"></a>春物</h2><p>怎么说呢，这部番真的太深刻了，比企古虽然真的太特立独行但是他追求的 <strong>真物</strong> 也恰恰给了我很大的启示，直接导致了我想要30岁后再谈恋爱的想法，说实话比企古是不幸的，因为只有他一个人敢面对真实的一切，也能忍耐最让人难熬的孤独，他甚至不惜自爆来救赎别人，那么谁又能救赎他自己呢，看过这部番后再想想我至今为之碰到过的女孩，我曾经大概从没拥有过真物，都是虚假的浮华罢了，仅能解身体的渴，内心始终空虚，真物不仅是对恋人关系，对平常交际也是这样，能真心对待的人太少了，虚伪的来回倒是常态。我在看了这番后立志为了真物而活，我希望能遇到一个人，认真的对待一切，不是要求对方付出多少，而是用心为对方着想，为感情中的每一个行为负起责任，而不是仅要求对方负起什么责任，感情是相互的，任何一方的虚伪都将导致平衡破坏进而分崩离析。</p><p>不过真的羡慕比企古，有那么多女孩子为自己付出真物，也许比企古还没意识到，但那些关心，都是真的。前一阵子得知了漫画结局，雪乃党获胜，害，大老师要好好待她啊，珍惜你所的来不易的真物。雪乃真的是我的理想型，雪之下的含义可能就是表面冰冷，但是在雪的外表下，有一颗真实美好的心吧，一直希望自己的女朋友也是这种类型的，不过其实结衣的性格也挺棒的，阳光大方（<del>但可能我更欣赏那种像雪乃那样有点嘴硬的美? 淦，老子就是雪乃党，雪乃的所有我都喜欢</del>)。</p><p>看完7月的春物可能就真的青结了吧，以后也尽量少看番了，毕竟轻音的完结对我的影响太大了，看完了轻音，可能就青结了70%了。</p><p>结局那场对白，我现在也时刻想起，十分深刻。</p><p><strong>“请把你的人生交给我吧”           雪之下雪乃  to  比企古八幡</strong></p><h2 id="轻音少女"><a href="#轻音少女" class="headerlink" title="轻音少女"></a>轻音少女</h2><p>这个留到下次专门做一期文章吧，来致敬我进入二次元以来看过的最棒的番。（<del>之前一直在犹豫春物和轻音那个最棒，但没办法，轻音让我哭了最久</del>）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;那些梦一般的番剧&quot;&gt;&lt;a href=&quot;#那些梦一般的番剧&quot; class=&quot;headerlink&quot; title=&quot;那些梦一般的番剧&quot;&gt;&lt;/a&gt;那些梦一般的番剧&lt;/h1&gt;&lt;p&gt;说实话进入二次元也有一段时间了，总感觉有些东西憋在心里，说实话我觉得二次元对于我来说，算是我</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/11/15/01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/"/>
+    <id>http://example.com/2020/11/15/01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</id>
+    <published>2020-11-15T05:12:47.090Z</published>
+    <updated>2020-05-17T02:56:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="01背包问题"><a href="#01背包问题" class="headerlink" title="01背包问题"></a>01背包问题</h1><p><del>爷终于在拖了三天看了好多背包问题之后弄懂了写法！！！！</del> </p><h2 id="0-例题："><a href="#0-例题：" class="headerlink" title="0.例题："></a>0.例题：</h2><p>洛谷2971 <a href="https://www.luogu.com.cn/problem/P2871">https://www.luogu.com.cn/problem/P2871</a></p><p>代码</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> maxn = <span class="number">13010</span>;</span><br><span class="line"><span class="keyword">int</span> n, W, w[maxn], v[maxn], f[maxn];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n &gt;&gt; W;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; w[i] &gt;&gt; v[i];</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> l = W; l &gt;= w[i]; l--)</span><br><span class="line">            <span class="keyword">if</span> (f[l - w[i]] + v[i] &gt; f[l])</span><br><span class="line">                f[l] = f[l - w[i]] + v[i];</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; f[W];</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="1-状态转移方程"><a href="#1-状态转移方程" class="headerlink" title="1.状态转移方程"></a>1.状态转移方程</h2><h3 id="（1）建立过程"><a href="#（1）建立过程" class="headerlink" title="（1）建立过程"></a>（1）建立过程</h3><p>首先最重要的是我们要知道背包问题的状态转移方程，后续许多问题也基于这个基本的转移方程，这个方程也是整个部分最好理解的</p><p>下面例题中已知条件有第i个物品的重量w<del>i</del> ，价值v<del>i</del> ，以及背包的总容量W 。</p><p>设 DP 状态f(i, j)为在只能放前i个物品的情况下，容量为j的背包所能达到的最大总价值。假设当前已经处理好了前i-1个物品的所有状态，那么对于第i个物品，当其不放入背包时，背包的剩余容量不变，背包中物品的总价值也不变，故这种情况的最大价值为f(i-1, j) ；当其放入背包时，背包的剩余容量会减小 ，背包中物品的总价值会增大 ，故这种情况的最大价值为f(i-1, j - w[i]) + v[i] 。</p><p>所以写出状态转移方程：<br>$$<br>f(i,j)=max(f(i-1,j),f(i-1,j-w[i])+v[i])<br>$$<br>值得注意的是这道题特殊的地方是不能用二维数组存储，否则会MLE，但正常的思维就是看到了f正好有两个参量，就直接搞一个二维数组存，但是01背包问题的一个特色就是空间优化，所以我们采取一维数组（好像叫滚动数组？）来存。</p><h3 id="（2）为什么这么建"><a href="#（2）为什么这么建" class="headerlink" title="（2）为什么这么建"></a>（2）为什么这么建</h3><p>其实我们要建立的就是一个状态表，每组i，j所对应的<strong>状态</strong>！！！我们记录i-1时刻的状态是为了推知i时刻状态，最后答案也是f(n, m)，（n，m分别为物品总个数，背包最大空间），相当于我开始建立了一个二维数组存状态，然后最后只需要一个元素f(n, m)，那么我的前n-1行空间都浪费掉了。那么其实优化思路有点像 <strong>时间换空间</strong>， 反正我们要的是状态，不如使用二重循环每次记录一组i的f状态指，然后每次循环<strong>更新</strong>我的一组f状态。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//正序错误代码</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> l = <span class="number">0</span>; l &lt;= W - w[i]; l++)</span><br><span class="line">    f[l + w[i]] = max(f[l] + v[i], f[l + w[i]]);</span><br><span class="line"><span class="comment">// 由 f[i][l + w[i]] = max(max(f[i - 1][l + w[i]],f[i - 1][l] + w[i]),f[i][l +</span></span><br><span class="line"><span class="comment">// w[i]]); 简化而来</span></span><br></pre></td></tr></table></figure><h2 id="2-最大问题"><a href="#2-最大问题" class="headerlink" title="2.最大问题"></a>2.最大问题</h2><p>说实话我最大疑问就在第二重循环是正序还是逆序</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//正序</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> l = <span class="number">0</span>; l &lt;= W - w[i]; l++)</span><br><span class="line">    f[l + w[i]] = max(f[l] + v[i], f[l + w[i]]);<span class="comment">//核心代码</span></span><br><span class="line"><span class="comment">//逆序</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> l = W; l &gt;= w[i]; l--)</span><br><span class="line">      <span class="keyword">if</span> (f[l - w[i]] + v[i] &gt; f[l]) </span><br><span class="line">          f[l] = f[l - w[i]] + v[i];<span class="comment">//核心代码</span></span><br></pre></td></tr></table></figure><p>例子我就不举了，<del>第一次写博客码不动了</del></p><p>思想是我们空间优化后关键代码中最重要的是此时我们没有了i-1这个参数来表示<strong>上一状态</strong></p><p>但是核心就是下一状态<strong>必须</strong>由上一状态推得，我们此时的状态体现在了核心代码中的等号，等号左边代表本状态，等号右边代表下一状态，而正序的话其实无法保证下一状态<strong>必须</strong>由上一状态推得，这个要理解的话其实还是要看例子（例子在最下面注释的参考博客里哦～），也就是：对于当前处理的物品i和当前状态f(i, j) ，在j&gt;=w<del>i</del> 时， 是会被f(i, j - w<del>i</del>) 所影响的。这就相当于物品i可以多次被放入背包，与题意不符。（事实上，这正是完全背包问题的解法）。所以第二重循环我们从W枚举到w<del>i</del> ,因为f(i, j)总是在</p><p>f(i, j - w<del>i</del>)前更新，也就是下一状态在上一状态之前更新，上一状态的更新不会影响到下一状态。</p><hr><p>参考了</p><ol><li><p><a href="">https://blog.csdn.net/xiajiawei0206/article/details/19933781?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase</a></p></li><li><p><a href="https://oi-wiki.org/dp/knapsack/">https://oi-wiki.org/dp/knapsack/</a></p></li></ol><hr><p>第一次正式写博客，1200多字，快要晕了，有的时候还要想好久，万事开头难吧，希望能坚持下去！！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;01背包问题&quot;&gt;&lt;a href=&quot;#01背包问题&quot; class=&quot;headerlink&quot; title=&quot;01背包问题&quot;&gt;&lt;/a&gt;01背包问题&lt;/h1&gt;&lt;p&gt;&lt;del&gt;爷终于在拖了三天看了好多背包问题之后弄懂了写法！！！！&lt;/del&gt; &lt;/p&gt;
+&lt;h2 id=&quot;0-</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/11/15/%E5%8D%81%E4%BA%94%E5%91%A8%E5%91%A8%E8%AE%B0/"/>
+    <id>http://example.com/2020/11/15/%E5%8D%81%E4%BA%94%E5%91%A8%E5%91%A8%E8%AE%B0/</id>
+    <published>2020-11-15T05:12:46.990Z</published>
+    <updated>2020-06-07T06:19:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="十五周周记"><a href="#十五周周记" class="headerlink" title="十五周周记"></a>十五周周记</h1><p>其实本来不想写了，因为这一周感觉又没干啥，但心里还有点骚话想bb，那就简要写点吧。</p><p>就不说大概学啥了，有点杂，也有点少，作业倒是都按时完成了。</p><p>这周帮人做了很多很多高数题，但其实感觉一般，<del>题都是签到题</del>，没啥提升，有点烦吧，但怎么说呢，帮到别人了还是算好事吧。</p><p>想了一想，自己其实这学期没啥提升，有点混日子的感觉，日复一日，无所事事。ACM彻底崩了，这个暑假可能真的要苛刻一下自己了。</p><p>我好像忘了自己来到这里有多么幸运了，那就提醒自己以下吧：Fox11，一个来自北方的失败者，高考雪崩，想着去新的城市开始新的生活，努力了几乎一个学期吧，超过了一些高考分数比自己高的人，但是假期和第二学期过得垃圾的要死，似乎忘了在C9的同学了，似乎忘了曾经肆意嘲笑自己的竞争对手，似乎忘了人家比看似努力的自己还要努力很多倍的事实了。</p><p>不好意思，我好像想起来了，那么这次，我不会输了。</p><p>就这样吧15周，疾风将至，那么，谁又能安然无恙呢。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;十五周周记&quot;&gt;&lt;a href=&quot;#十五周周记&quot; class=&quot;headerlink&quot; title=&quot;十五周周记&quot;&gt;&lt;/a&gt;十五周周记&lt;/h1&gt;&lt;p&gt;其实本来不想写了，因为这一周感觉又没干啥，但心里还有点骚话想bb，那就简要写点吧。&lt;/p&gt;
+&lt;p&gt;就不说大概学啥了，</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/11/15/15.5%E5%91%A8%E8%AE%B0/"/>
+    <id>http://example.com/2020/11/15/15.5%E5%91%A8%E8%AE%B0/</id>
+    <published>2020-11-15T05:12:46.870Z</published>
+    <updated>2020-06-03T04:43:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="15-5周短机"><a href="#15-5周短机" class="headerlink" title="15.5周短机"></a>15.5周短机</h1><p>14周也就是上周的周记不更啦，因为也没啥好更的 <del>(其实是因为自己这个sb啥也没干)</del></p><p>15周末一起更吧，这几周帮人做题感觉很棒，真的有人需要我啊。</p><p>突然想起那句话：强者应行不可行之事。</p><p>加油吧，继续努力，少丧少矫情。就这样吧，不多bb啦！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;15-5周短机&quot;&gt;&lt;a href=&quot;#15-5周短机&quot; class=&quot;headerlink&quot; title=&quot;15.5周短机&quot;&gt;&lt;/a&gt;15.5周短机&lt;/h1&gt;&lt;p&gt;14周也就是上周的周记不更啦，因为也没啥好更的 &lt;del&gt;(其实是因为自己这个sb啥也没干)&lt;/de</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/11/15/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%91%A8%E8%AE%B013%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2020/11/15/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%91%A8%E8%AE%B013%E5%91%A8%E6%80%BB%E7%BB%93/</id>
+    <published>2020-11-15T05:12:46.760Z</published>
+    <updated>2020-05-24T00:37:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第一篇周记-13周总结"><a href="#第一篇周记-13周总结" class="headerlink" title="第一篇周记:13周总结"></a>第一篇周记:13周总结</h1><p>关于周记博客呢，我觉得博客一周一更的话应该是比较适合我的节奏吧。正好也记录一下自己这周干了什么，</p><p>是怎么想的，心态情况啥的。(<del>tmd主要是警醒自己这周过得有多荒废</del>)</p><h2 id="做了的事情"><a href="#做了的事情" class="headerlink" title="做了的事情"></a>做了的事情</h2><p>1.首先呢很俗套地写了各科作业</p><p>2.其次是没干啥正经的(<del>淦！！！！</del>)</p><p>3.不过至少还是搞明白了三种背包问题。(<del>虽然这依然很微不足道</del>)</p><h2 id="要做的事情"><a href="#要做的事情" class="headerlink" title="要做的事情"></a>要做的事情</h2><p>首先这周依然要把各科作业高质量的完成吧，值得注意的是学校关于考试的通知发的不清不楚的，所以真的要开始备考了，物理公式什么的，还有微积分一学期要背的，离散好像没期末(还是不能大意阿)</p><p>这周开始真的要端正学习态度了！！！</p><p>还是认真对待选修吧，毕竟吃过亏，不能忘记院长给我的那句教诲吧：大学的每一门课都是要认真地对待每一个细节才能有好成绩的。所以这周中西不能忘记作业阿！！！</p><p>其实我感觉这周有点飘，学院里上学期630多人里考个80名就自我感觉提升真tmd让我觉得有点nt，然而我还是tmd有点飘，几个同学问了几道题作出来后也感觉很有自信，但是保持谦虚吧，我知道我这学期平时上课有多水。</p><p>最重要的当然是ACM，就像汪老师说的一样坚持吧，我一直把自己的垃圾态度所导致的垃圾状态归咎为天赋的差距，唉，不叫了，就是自己用废物的行为觊觎着王者的位置。所以这周的任务就是彻底深入图论，毕竟高中同学都在社交平台晒自己学习图论了，那我当仁不让给她上一课。高中时候是我输了，但是现在，你们将见证我的蜕变。</p><p>这周就尽量不看直播了，提高自己的学习效率。然后手机也不能玩太久了，眼睛迟早要出问题，这周五出门一趟吧，去运动几小时，要不然体育必挂！！！！</p><p>总结一下就是，大战在即，全面进入战时状态。</p><h2 id="本周电影节"><a href="#本周电影节" class="headerlink" title="本周电影节"></a>本周电影节</h2><p>这周看了《游戏人生剧场版》和《爱在黎明破晓前》，都是兄弟提出的电影，不得不说都是好片子，但是一个太文艺一个太虐，不过这也恰恰证明了我的心理承受能力可能有待提高。看了这么多爱情片，自己的恋爱观却依然没啥改变，没办法，社会是现实的，大家都要生存，我宁可30岁才有下一段恋爱，也不想有一段被贫穷与现实强奸的青春恋爱故事。与其共度异域的美好一天然后被迫分开，倒不如让这一天根本不存在，去你妈的爱情，别在这里狗叫了，不如直接明码标价吧，大家也都心安理得，交易远比爱情让我觉得舒服。</p><p>说真的，我越来越觉得女博士更符合我的感觉了，向往知识的灵魂是可敬的，对待知识是专一的，那对待爱情也不会差到哪里，年龄也恰巧过了我所厌恶的青春期。(<del>淦！说实话鱼与熊掌都想要</del>)</p><p>本周就这样结束了，下周加油！！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第一篇周记-13周总结&quot;&gt;&lt;a href=&quot;#第一篇周记-13周总结&quot; class=&quot;headerlink&quot; title=&quot;第一篇周记:13周总结&quot;&gt;&lt;/a&gt;第一篇周记:13周总结&lt;/h1&gt;&lt;p&gt;关于周记博客呢，我觉得博客一周一更的话应该是比较适合我的节奏吧。正好</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>旅途就此开始</title>
+    <link href="http://example.com/2020/05/16/%E6%97%85%E9%80%94%E5%B0%B1%E6%AD%A4%E5%BC%80%E5%A7%8B/"/>
+    <id>http://example.com/2020/05/16/%E6%97%85%E9%80%94%E5%B0%B1%E6%AD%A4%E5%BC%80%E5%A7%8B/</id>
+    <published>2020-05-16T11:07:57.000Z</published>
+    <updated>2020-05-16T03:17:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这是我的第一篇-blog"><a href="#这是我的第一篇-blog" class="headerlink" title="这是我的第一篇 blog"></a>这是我的第一篇 blog</h1><p>虽然这是第一篇 blog，但是这证明这我已经开始了我的博客之旅，理想是技术博主，但是可能更多的会记录自己的心路历程把！</p><p>那么第一篇文章就此完结！</p><p><del>很短</del>…但是很有意义！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;这是我的第一篇-blog&quot;&gt;&lt;a href=&quot;#这是我的第一篇-blog&quot; class=&quot;headerlink&quot; title=&quot;这是我的第一篇 blog&quot;&gt;&lt;/a&gt;这是我的第一篇 blog&lt;/h1&gt;&lt;p&gt;虽然这是第一篇 blog，但是这证明这我已经开始了我的博客之</summary>
+      
+    
+    
+    
+    
+    <category term="new" scheme="http://example.com/tags/new/"/>
+    
+  </entry>
+  
+</feed>
