@@ -1,194 +1,203 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hexo</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/null">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-    
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+<meta name="twitter:image" content="http://example.com/null"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
 
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+const saveToLocal = {
+  // ttl 單位是 天
+  set: function setWithExpiry(key, value, ttl) {
+    if (ttl === 0) return
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
 
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
 
-  
-<meta name="generator" content="Hexo 5.3.0"></head>
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}
 
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-back" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2021/01/27/back/" class="article-date">
-  <time class="dt-published" datetime="2021-01-27T11:17:10.000Z" itemprop="datePublished">2021-01-27</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/01/27/back/">back</a>
-    </h1>
-  
+// https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
+const getScript = url => new Promise((resolve, reject) => {
+  const script = document.createElement('script')
+  script.src = url
+  script.async = true
+  script.onerror = reject
+  script.onload = script.onreadystatechange = function() {
+    const loadState = this.readyState
+    if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+    script.onload = script.onreadystatechange = null
+    resolve()
+  }
+  document.head.appendChild(script)
+})</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-01-27 20:02:48'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/27/back/" data-id="ckkfdllix000060rb5hprcluz" data-title="back" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2021/01/27/back/">back</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2021 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.4.1.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
-</body>
-</html>
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+   if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }const asideStatus = saveToLocal.get('aside-status')
+if (asideStatus !== undefined) {
+   if (asideStatus === 'hide') {
+     document.documentElement.classList.add('hide-aside')
+   } else {
+     document.documentElement.classList.remove('hide-aside')
+   }
+}})()</script><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/null" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a></div></div></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Hexo</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Hexo</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/01/27/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%BD%BB%E9%9F%B3%E5%B0%91%E5%A5%B3/" title="No title">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/27/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%BD%BB%E9%9F%B3%E5%B0%91%E5%A5%B3/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-01-27T12:01:58.479Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></span></div><div class="content">Forever K-ON这部番是神话，很久没有这么有感触了，也看了很多番了，没有一部像轻音一样，将梦想、青春、友情、日常融汇的如此完美，感觉此番只应天上有。原谅我一个大男人在看完整个系列后，在电脑前哭得稀里哗啦，这部番没有任何虐点，换句话说可能它的完结是唯一且最大的虐点，每次听到天使にふれたよ!**以及ふわふわ時間**我都会热泪盈眶，真的很感动，因为音乐梦想相遇的女孩们，在一起每天喝喝茶，练练曲子，在全校面前献上最棒的Live，这可能就是我曾经追求的东西吧，很多人不知道，我曾经也有个音乐的梦，我也想组个乐队，也想有一群这样的朋友，也想在全校面前闪耀一次，可是这也只能是曾经的梦想了，我的高中过的一塌糊涂，于是向往轻音中的那种生活，在我大学前，彻底放弃了吉他，脑中想着还是有时间多休息休息或者学学C语言吧，可能对以后的就业有帮助，所以这部番也算对我曾经的青春的祭奠吧。
+这部番描写的是轻音部平凡的生活，可就是这么平凡的生活，给人巨大的代入感，仿佛我也在每天放学后的音乐教室，仿佛我也在轻音部氤氲的茶香中，仿佛我也在追寻着我的音乐梦想，平凡而伟大这一词，可能完美地概括了这部番吧，很难想象，平凡的学 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/01/27/%E5%8D%81%E4%BA%94%E5%91%A8%E5%91%A8%E8%AE%B0/" title="No title">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/27/%E5%8D%81%E4%BA%94%E5%91%A8%E5%91%A8%E8%AE%B0/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-01-27T12:01:58.477Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></span></div><div class="content">十五周周记其实本来不想写了，因为这一周感觉又没干啥，但心里还有点骚话想bb，那就简要写点吧。
+就不说大概学啥了，有点杂，也有点少，作业倒是都按时完成了。
+这周帮人做了很多很多高数题，但其实感觉一般，题都是签到题，没啥提升，有点烦吧，但怎么说呢，帮到别人了还是算好事吧。
+想了一想，自己其实这学期没啥提升，有点混日子的感觉，日复一日，无所事事。ACM彻底崩了，这个暑假可能真的要苛刻一下自己了。
+我好像忘了自己来到这里有多么幸运了，那就提醒自己以下吧：Fox11，一个来自北方的失败者，高考雪崩，想着去新的城市开始新的生活，努力了几乎一个学期吧，超过了一些高考分数比自己高的人，但是假期和第二学期过得垃圾的要死，似乎忘了在C9的同学了，似乎忘了曾经肆意嘲笑自己的竞争对手，似乎忘了人家比看似努力的自己还要努力很多倍的事实了。
+不好意思，我好像想起来了，那么这次，我不会输了。
+就这样吧15周，疾风将至，那么，谁又能安然无恙呢。
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/01/27/%E9%82%A3%E4%BA%9B%E6%A2%A6%E4%B8%80%E8%88%AC%E7%9A%84%E7%95%AA%E5%89%A7/" title="No title">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/27/%E9%82%A3%E4%BA%9B%E6%A2%A6%E4%B8%80%E8%88%AC%E7%9A%84%E7%95%AA%E5%89%A7/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-01-27T12:01:58.474Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></span></div><div class="content">那些梦一般的番剧说实话进入二次元也有一段时间了，总感觉有些东西憋在心里，说实话我觉得二次元对于我来说，算是我寄托我的“纯净”的地方吧，它是我对于“真正的东西”的向往。现实的生活总是些许压抑，人的情感也捉摸不定，尔虞我诈的人际关系真的需要喘息的空间。而二次元中描绘的美好恰恰是我所追寻的，而现实中却得不到的。
+紫罗兰永恒花园大概是从和兄弟一起去看了紫罗兰永恒花园之后才开始疯狂地补番追剧，这部番教了我什么呢？ 心意。 京都动画的这部番剧确实是2018的奇迹，薇尔莉特在战争中传递心意的载体–书信。这部番的最大意义就是教会了我心意的重要性，人与人之间，最难的就是传递心意，我想说我爱你，可是碍于各种原因，这句话也许你听到了也不相信，也许你根本就没有机会听见。人与人之间要是能听到心意，那么偏见与隔阂也会少一些吧。不管怎么样，这部番真的令人印象深刻，完结的时候也确实让我难过了好久，心情才得以平复。听说剧场版要把少佐找回来，不过小说确实仅仅到动画版结尾就戛然而止，其实这样也好，薇尔莉特的美，战争后的重生已经足够了吧，但是既然动画想要给薇尔莉特和少佐的感情一个结果，那么我觉得也很棒，我始终相信京都出品，必 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/01/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%91%A8%E8%AE%B013%E5%91%A8%E6%80%BB%E7%BB%93/" title="No title">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%91%A8%E8%AE%B013%E5%91%A8%E6%80%BB%E7%BB%93/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-01-27T12:01:58.470Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></span></div><div class="content">第一篇周记:13周总结关于周记博客呢，我觉得博客一周一更的话应该是比较适合我的节奏吧。正好也记录一下自己这周干了什么，
+是怎么想的，心态情况啥的。(tmd主要是警醒自己这周过得有多荒废)
+做了的事情1.首先呢很俗套地写了各科作业
+2.其次是没干啥正经的(淦！！！！)
+3.不过至少还是搞明白了三种背包问题。(虽然这依然很微不足道)
+要做的事情首先这周依然要把各科作业高质量的完成吧，值得注意的是学校关于考试的通知发的不清不楚的，所以真的要开始备考了，物理公式什么的，还有微积分一学期要背的，离散好像没期末(还是不能大意阿)
+这周开始真的要端正学习态度了！！！
+还是认真对待选修吧，毕竟吃过亏，不能忘记院长给我的那句教诲吧：大学的每一门课都是要认真地对待每一个细节才能有好成绩的。所以这周中西不能忘记作业阿！！！
+其实我感觉这周有点飘，学院里上学期630多人里考个80名就自我感觉提升真tmd让我觉得有点nt，然而我还是tmd有点飘，几个同学问了几道题作出来后也感觉很有自信，但是保持谦虚吧，我知道我这学期平时上课有多水。
+最重要的当然是ACM，就像汪老师说的一样坚持吧，我一直把自己的垃圾态度所导致的 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/01/27/hello-world/" title="Hello World">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/27/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-01-27T12:01:58.468Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+More info: Writing
+Run server1$ hexo server
+More info: Server
+Generate static files1$ hexo generate
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+More info: Deployment
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/01/27/15.5%E5%91%A8%E8%AE%B0/" title="No title">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/27/15.5%E5%91%A8%E8%AE%B0/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-01-27T12:01:58.466Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></span></div><div class="content">15.5周短机14周也就是上周的周记不更啦，因为也没啥好更的 (其实是因为自己这个sb啥也没干)
+15周末一起更吧，这几周帮人做题感觉很棒，真的有人需要我啊。
+突然想起那句话：强者应行不可行之事。
+加油吧，继续努力，少丧少矫情。就这样吧，不多bb啦！
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/01/27/01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/" title="No title">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/27/01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-01-27T12:01:58.464Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></span></div><div class="content">01背包问题爷终于在拖了三天看了好多背包问题之后弄懂了写法！！！！ 
+0.例题：洛谷2971 https://www.luogu.com.cn/problem/P2871
+代码
+12345678910111213141516#include &lt;iostream&gt;using namespace std;const int maxn = 13010;int n, W, w[maxn], v[maxn], f[maxn];int main()&#123;    cin &gt;&gt; n &gt;&gt; W;    for (int i = 1; i &lt;= n; i++)        cin &gt;&gt; w[i] &gt;&gt; v[i];    for (int i = 1; i &lt;= n; i++)        for (int l = W; l &gt;= w[i]; l--)            if (f[l - w[i]] + v[i] &gt; f[l])                f[l] = f[l - w[i]] + v[i] ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/01/27/back/" title="back">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="back"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/27/back/" title="back">back</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-01-27T11:17:10.000Z" title="Created 2021-01-27 19:17:10">2021-01-27</time></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/05/16/%E6%97%85%E9%80%94%E5%B0%B1%E6%AD%A4%E5%BC%80%E5%A7%8B/" title="旅途就此开始">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="旅途就此开始"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/05/16/%E6%97%85%E9%80%94%E5%B0%B1%E6%AD%A4%E5%BC%80%E5%A7%8B/" title="旅途就此开始">旅途就此开始</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-05-16T11:07:57.000Z" title="Created 2020-05-16 19:07:57">2020-05-16</time></span></div><div class="content">这是我的第一篇 blog虽然这是第一篇 blog，但是这证明这我已经开始了我的博客之旅，理想是技术博主，但是可能更多的会记录自己的心路历程把！
+那么第一篇文章就此完结！
+很短…但是很有意义！！
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/null" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">9</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/01/27/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%BD%BB%E9%9F%B3%E5%B0%91%E5%A5%B3/" title="No title"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2021/01/27/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%BD%BB%E9%9F%B3%E5%B0%91%E5%A5%B3/" title="No title">No title</a><time datetime="2021-01-27T12:01:58.479Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/27/%E5%8D%81%E4%BA%94%E5%91%A8%E5%91%A8%E8%AE%B0/" title="No title"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2021/01/27/%E5%8D%81%E4%BA%94%E5%91%A8%E5%91%A8%E8%AE%B0/" title="No title">No title</a><time datetime="2021-01-27T12:01:58.477Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/27/%E9%82%A3%E4%BA%9B%E6%A2%A6%E4%B8%80%E8%88%AC%E7%9A%84%E7%95%AA%E5%89%A7/" title="No title"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2021/01/27/%E9%82%A3%E4%BA%9B%E6%A2%A6%E4%B8%80%E8%88%AC%E7%9A%84%E7%95%AA%E5%89%A7/" title="No title">No title</a><time datetime="2021-01-27T12:01:58.474Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%91%A8%E8%AE%B013%E5%91%A8%E6%80%BB%E7%BB%93/" title="No title"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2021/01/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%91%A8%E8%AE%B013%E5%91%A8%E6%80%BB%E7%BB%93/" title="No title">No title</a><time datetime="2021-01-27T12:01:58.470Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/27/hello-world/" title="Hello World"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2021/01/27/hello-world/" title="Hello World">Hello World</a><time datetime="2021-01-27T12:01:58.468Z" title="Created 2021-01-27 20:01:58">2021-01-27</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/new/" style="font-size: 1.1em; color: #999">new</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/01/"><span class="card-archive-list-date">January 2021</span><span class="card-archive-list-count">8</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/05/"><span class="card-archive-list-date">May 2020</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">9</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-01-27T12:02:48.847Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By John Doe</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
